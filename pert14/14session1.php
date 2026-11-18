@@ -7,7 +7,7 @@ if (isset ($_POST['Login'])) {
     if ($user == "rahadian" && $pass == "123") {
         $_SESSION['login'] = $user;
         echo "<h1>Anda berhasil LOGIN</h1>";
-        echo "<h2>Klik <a href='session2.php'>di sini (session2.php)</a> untuk menuju ke halaman pemeriksaan session";
+        echo "<h2>Klik <a href='14session2.php'>di sini (14session2.php)</a> untuk menuju ke halaman pemeriksaan session";
     }
 } else {
 ?>
